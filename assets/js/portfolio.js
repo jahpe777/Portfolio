@@ -26,9 +26,21 @@ function project() {
     });
 }
 
+function projectTwo() {
+    $(".projectTwo").click(function(event) {
+        location.href = 'https://jahpe777.github.io/Climate_Change_App/';
+    });
+}
+
 function code() {
     $(".code").click(function(event) {
         location.href = 'https://github.com/jahpe777/Quiz_App.git';
+    });
+}
+
+function codeTwo() {
+    $(".codeTwo").click(function(event) {
+        location.href = 'https://github.com/jahpe777/Climate_Change_App.git';
     });
 }
 
@@ -54,6 +66,8 @@ james();
 about();
 project();
 code();
+projectTwo();
+codeTwo();
 email();
 linkedin();
 github();
