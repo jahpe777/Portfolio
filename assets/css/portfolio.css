@@ -45,7 +45,7 @@ main {
 }
 
 img {
-  width: 90%;
+  width: 75%;
   margin-bottom: 3rem;
 }
 
@@ -98,6 +98,10 @@ p {
   margin-bottom: 4rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.quizAppImage {
+  cursor: pointer;
 }
 
 .project {
@@ -225,6 +229,10 @@ h4 {
 
 /*Climate Change App Section*/
 
+.climateChangeAppImage {
+  cursor: pointer;
+}
+
 .projectTwo {
   background-color: beige;
   border-radius: 5rem;
@@ -269,6 +277,10 @@ h4 {
 }
 
 /*Ghost Pavilion App Section*/
+
+.ghostPavilionAppImage {
+  cursor: pointer;
+}
 
 .projectThree {
   background-color: beige;
@@ -336,6 +348,10 @@ h4 {
 
 /*Crescendo App Section*/
 
+.crescendoAppImage {
+  cursor: pointer;
+}
+
 .projectFour {
   background-color: beige;
   border-radius: 5rem;
@@ -400,7 +416,7 @@ h4 {
   color: beige;
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1414px) {
   p {
     font-size: 1.2rem;
     width: 70%;
@@ -413,11 +429,15 @@ h4 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 808px) {
   .icons {
-    height: 3.5rem;
+    height: 2.5rem;
     position: relative;
     bottom: 1.5rem;
+  }
+
+  img {
+    width: 90%;
   }
 
   .name {
@@ -430,14 +450,15 @@ h4 {
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     width: 90%;
     position: relative;
     bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .techImages {
@@ -446,6 +467,7 @@ h4 {
     bottom: 2rem;
     height: 4rem;
     width: 4rem;
+    margin-bottom: 1rem;
   }
 
   .close {
@@ -494,20 +516,60 @@ h4 {
   .project {
     position: relative;
     bottom: 2rem;
-  }
-
-  .code {
-    position: relative;
-    bottom: 2rem;
+    transform: scale(0.8);
   }
 
   .projectTwo {
     position: relative;
     bottom: 2rem;
+    transform: scale(0.8);
+  }
+
+  .projectThree {
+    position: relative;
+    bottom: 2rem;
+    transform: scale(0.8);
+  }
+
+  .projectFour {
+    position: relative;
+    bottom: 2rem;
+    transform: scale(0.8);
+  }
+
+  .code {
+    position: relative;
+    bottom: 2rem;
+    transform: scale(0.8);
   }
 
   .codeTwo {
     position: relative;
     bottom: 2rem;
+    transform: scale(0.8);
+  }
+
+  .client {
+    position: relative;
+    bottom: 2rem;
+    transform: scale(0.8);
+  }
+
+  .server {
+    position: relative;
+    bottom: 2rem;
+    transform: scale(0.8);
+  }
+
+  .clientTwo {
+    position: relative;
+    bottom: 2rem;
+    transform: scale(0.8);
+  }
+
+  .serverTwo {
+    position: relative;
+    bottom: 2rem;
+    transform: scale(0.8);
   }
 }

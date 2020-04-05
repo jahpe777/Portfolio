@@ -20,6 +20,30 @@ function about() {
   });
 }
 
+function quizAppImage() {
+  $('.quizAppImage').click(function(event) {
+    location.href = 'https://jahpe777.github.io/Quiz_App/';
+  });
+}
+
+function climateChangeAppImage() {
+  $('.climateChangeAppImage').click(function(event) {
+    location.href = 'https://jahpe777.github.io/Climate_Change_App/';
+  });
+}
+
+function ghostPavilionAppImage() {
+  $('.ghostPavilionAppImage').click(function(event) {
+    location.href = 'https://ghost-pavilion.now.sh/';
+  });
+}
+
+function crescendoAppImage() {
+  $('.crescendoAppImage').click(function(event) {
+    location.href = 'https://crescendo.now.sh/';
+  });
+}
+
 function project() {
   $('.project').click(function(event) {
     location.href = 'https://jahpe777.github.io/Quiz_App/';
@@ -100,13 +124,17 @@ function github() {
 
 james();
 about();
+quizAppImage();
 project();
 code();
+climateChangeAppImage();
 projectTwo();
 codeTwo();
+ghostPavilionAppImage();
 projectThree();
 client();
 server();
+crescendoAppImage();
 projectFour();
 clientTwo();
 serverTwo();
