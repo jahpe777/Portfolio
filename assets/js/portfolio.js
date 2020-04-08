@@ -106,7 +106,7 @@ function serverTwo() {
 
 function email() {
   $('#email').click(function(event) {
-    location.href = 'mailto:james@jamesyhiggs.com';
+    location.href = 'mailto:james.y.higgs@gmail.com';
   });
 }
 
