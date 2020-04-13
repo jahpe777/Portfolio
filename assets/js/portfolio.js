@@ -21,85 +21,85 @@ function about() {
 }
 
 function quizAppImage() {
-  $('.quizAppImage').click(function(event) {
+  $('#quizAppImage').click(function(event) {
     location.href = 'https://jahpe777.github.io/Quiz_App/';
   });
 }
 
 function climateChangeAppImage() {
-  $('.climateChangeAppImage').click(function(event) {
+  $('#climateChangeAppImage').click(function(event) {
     location.href = 'https://jahpe777.github.io/Climate_Change_App/';
   });
 }
 
 function ghostPavilionAppImage() {
-  $('.ghostPavilionAppImage').click(function(event) {
+  $('#ghostPavilionAppImage').click(function(event) {
     location.href = 'https://ghost-pavilion.now.sh/';
   });
 }
 
 function crescendoAppImage() {
-  $('.crescendoAppImage').click(function(event) {
+  $('#crescendoAppImage').click(function(event) {
     location.href = 'https://crescendo.now.sh/';
   });
 }
 
-function project() {
-  $('.project').click(function(event) {
+function projectOne() {
+  $('#projectOne').click(function(event) {
     location.href = 'https://jahpe777.github.io/Quiz_App/';
   });
 }
 
 function projectTwo() {
-  $('.projectTwo').click(function(event) {
+  $('#projectTwo').click(function(event) {
     location.href = 'https://jahpe777.github.io/Climate_Change_App/';
   });
 }
 
 function projectThree() {
-  $('.projectThree').click(function(event) {
+  $('#projectThree').click(function(event) {
     location.href = 'https://ghost-pavilion.now.sh/';
   });
 }
 
 function projectFour() {
-  $('.projectFour').click(function(event) {
+  $('#projectFour').click(function(event) {
     location.href = 'https://crescendo.now.sh/';
   });
 }
 
-function code() {
-  $('.code').click(function(event) {
+function codeOne() {
+  $('#codeOne').click(function(event) {
     location.href = 'https://github.com/jahpe777/Quiz_App.git';
   });
 }
 
 function codeTwo() {
-  $('.codeTwo').click(function(event) {
+  $('#codeTwo').click(function(event) {
     location.href = 'https://github.com/jahpe777/Climate_Change_App.git';
   });
 }
 
-function client() {
-  $('.client').click(function(event) {
+function clientOne() {
+  $('#clientOne').click(function(event) {
     location.href = 'https://github.com/jahpe777/ghost-pavilion.git';
   });
 }
 
 function clientTwo() {
-  $('.clientTwo').click(function(event) {
+  $('#clientTwo').click(function(event) {
     location.href = 'https://github.com/jahpe777/crescendo.git';
   });
 }
 
-function server() {
-  $('.server').click(function(event) {
+function serverOne() {
+  $('#serverOne').click(function(event) {
     location.href = 'https://github.com/jahpe777/ghost-pavilion-server.git';
   });
 }
 
 function serverTwo() {
-  $('.serverTwo').click(function(event) {
+  $('#serverTwo').click(function(event) {
     location.href = 'https://github.com/jahpe777/crescendo-api.git';
   });
 }
@@ -125,15 +125,15 @@ function github() {
 james();
 about();
 quizAppImage();
-project();
-code();
+projectOne();
+codeOne();
 climateChangeAppImage();
 projectTwo();
 codeTwo();
 ghostPavilionAppImage();
 projectThree();
-client();
-server();
+clientOne();
+serverOne();
 crescendoAppImage();
 projectFour();
 clientTwo();
