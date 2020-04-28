@@ -9,14 +9,31 @@ function james() {
   });
 }
 
-function about() {
-  $('.about').click(function(event) {
-    event.preventDefault();
-    $('.aboutModal').css('display', 'flex');
+function hideCrescendo() {
+  $('.projectNameCrescendo').click(function(event) {
+    var myDiv = document.getElementById('projectInfoCrescendo');
+    myDiv.classList.toggle('hide');
   });
-  $('.close').click(function(event) {
-    event.preventDefault();
-    $('.aboutModal').css('display', 'none');
+}
+
+function hideGhost() {
+  $('.projectNameGhost').click(function(event) {
+    var myDiv = document.getElementById('projectInfoGhost');
+    myDiv.classList.toggle('hide');
+  });
+}
+
+function hideClimate() {
+  $('.projectNameClimate').click(function(event) {
+    var myDiv = document.getElementById('projectInfoClimate');
+    myDiv.classList.toggle('hide');
+  });
+}
+
+function hideQuiz() {
+  $('.projectNameQuiz').click(function(event) {
+    var myDiv = document.getElementById('projectInfoQuiz');
+    myDiv.classList.toggle('hide');
   });
 }
 
@@ -123,7 +140,10 @@ function github() {
 }
 
 james();
-about();
+hideCrescendo();
+hideGhost();
+hideClimate();
+hideQuiz();
 quizAppImage();
 projectOne();
 codeOne();

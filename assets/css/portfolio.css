@@ -15,6 +15,12 @@
 
 .appImage {
   cursor: pointer;
+  opacity: 100%;
+}
+
+.appImage:hover {
+  opacity: 50%;
+  transition-duration: 0.4s;
 }
 
 .bioFirst {
@@ -48,7 +54,7 @@
 }
 
 .client {
-  background-color: beige;
+  background-color: white;
   border-radius: 80px;
   color: black;
   padding: 10px 25.6px;
@@ -65,7 +71,7 @@
 
 .client:hover {
   background-color: black;
-  color: beige;
+  color: white;
 }
 
 .close {
@@ -80,7 +86,7 @@
 }
 
 .code {
-  background-color: beige;
+  background-color: white;
   border-radius: 80px;
   color: black;
   padding: 10px 25.6px;
@@ -97,7 +103,7 @@
 
 .code:hover {
   background-color: black;
-  color: beige;
+  color: white;
 }
 
 .contact {
@@ -118,8 +124,18 @@
   margin-bottom: 0px;
 }
 
+.contactImages:hover {
+  background-color: grey;
+  transition-duration: 0.4s;
+}
+
+h2:hover {
+  color: grey;
+  transition-duration: 0.4s;
+}
+
 h3 {
-  color: beige;
+  color: white;
   position: relative;
   bottom: 32px;
 }
@@ -128,7 +144,8 @@ h4 {
   font-size: 32px;
 }
 
-.head-project {
+.hide {
+  display: none;
 }
 
 header {
@@ -153,7 +170,7 @@ header {
 
 img {
   width: 75%;
-  max-width: 800px;
+  max-width: 1000px;
   margin-bottom: 48px;
 }
 
@@ -206,12 +223,12 @@ main {
 p {
   width: 80%;
   margin: 10px auto;
-  color: beige;
+  color: white;
   font-size: 24px;
 }
 
 .project {
-  background-color: beige;
+  background-color: white;
   border-radius: 80px;
   color: black;
   padding: 10px 20px;
@@ -229,11 +246,16 @@ p {
 
 .project:hover {
   background-color: black;
-  color: beige;
+  color: white;
 }
 
-.projectName {
-  margin: 20px 0;
+#projectName {
+  cursor: pointer;
+}
+
+#projectName:hover {
+  color: grey;
+  transition-duration: 0.4s;
 }
 
 section.project {
@@ -241,7 +263,7 @@ section.project {
 }
 
 .server {
-  background-color: beige;
+  background-color: white;
   border-radius: 80px;
   color: black;
   padding: 10px 25.6px;
@@ -258,7 +280,12 @@ section.project {
 
 .server:hover {
   background-color: black;
-  color: beige;
+  color: white;
+}
+
+.tech {
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .techImages {
@@ -328,7 +355,7 @@ section.project {
     transform: scale(0.8);
   }
 
-  .projectName {
+  #projectName {
     margin: 0px;
     height: 20px;
   }
