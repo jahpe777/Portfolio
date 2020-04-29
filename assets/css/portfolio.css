@@ -251,6 +251,7 @@ p {
 
 #projectName {
   cursor: pointer;
+  font-family: 'space mono', sans-serif;
 }
 
 #projectName:hover {
