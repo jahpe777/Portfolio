@@ -129,6 +129,11 @@
   transition-duration: 0.4s;
 }
 
+.developer {
+  color: grey;
+  text-align: left;
+}
+
 h2:hover {
   color: grey;
   transition-duration: 0.4s;
@@ -213,7 +218,6 @@ main {
 }
 
 .name {
-  margin-left: 5px;
   text-align: left;
   display: inline-block;
   position: relative;
@@ -251,11 +255,12 @@ p {
 
 #projectName {
   cursor: pointer;
+  color: grey;
   font-family: 'space mono', sans-serif;
 }
 
 #projectName:hover {
-  color: grey;
+  color: white;
   transition-duration: 0.4s;
 }
 
@@ -323,6 +328,10 @@ section.project {
     transform: scale(0.5);
   }
 
+  .developer {
+    display: none;
+  }
+
   h2 {
     font-size: 39px;
   }
@@ -359,6 +368,7 @@ section.project {
   #projectName {
     margin: 0px;
     height: 20px;
+    color: white;
   }
 
   .server {
