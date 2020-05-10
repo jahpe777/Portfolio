@@ -5,27 +5,40 @@ const contactImages = document.querySelector('.contact');
 
 const tl = new TimelineMax();
 
-tl.fromTo(
-  projectImage,
-  2,
-  { width: '0%' },
-  { width: '75%', ease: Power2.easeInOut }
-)
-  .fromTo(
-    header,
-    0.5,
-    { x: '-120%' },
-    { x: '0%', ease: Power2.easeInOut },
-    '-=1'
-  )
-  .fromTo(developer, 0.5, { y: '-120%' }, { y: '0%', ease: Power2.easeInOut })
-  .fromTo(
-    contactImages,
-    0.5,
-    { x: '120%' },
-    { x: '0%', ease: Power2.easeInOut },
-    '-=1'
-  );
+function toggleAnimation() {
+  width = $(window).width();
+
+  if (width >= 414) {
+    tl.fromTo(
+      projectImage,
+      2,
+      { width: '0%' },
+      { width: '75%', ease: Power2.easeInOut }
+    )
+      .fromTo(
+        header,
+        0.5,
+        { x: '-120%' },
+        { x: '0%', ease: Power2.easeInOut },
+        '-=1'
+      )
+      .fromTo(
+        developer,
+        0.5,
+        { y: '-120%' },
+        { y: '0%', ease: Power2.easeInOut }
+      )
+      .fromTo(
+        contactImages,
+        0.5,
+        { x: '120%' },
+        { x: '0%', ease: Power2.easeInOut },
+        '-=1'
+      );
+  } else {
+    return '';
+  }
+}
 
 function james() {
   $('.name').click(function(event) {
@@ -190,3 +203,4 @@ serverTwo();
 email();
 linkedin();
 github();
+toggleAnimation();
