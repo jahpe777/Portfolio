@@ -43,11 +43,14 @@ function toggleAnimation() {
 function james() {
   $('.name').click(function(event) {
     event.preventDefault();
-    $('.jamesModal').css('display', 'flex');
+    $('.jamesModal')
+      .fadeIn(300)
+      .css('display', 'flex');
   });
   $('.close').click(function(event) {
     event.preventDefault();
-    $('.jamesModal').css('display', 'none');
+    $('.jamesModal').fadeOut(300);
+    // .css('display', 'none');
   });
 }
 
